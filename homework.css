@@ -1,0 +1,192 @@
+ *{
+ 	padding: 0;
+ 	margin: 0;
+ }
+ a{
+ 	text-decoration: none;
+ 	color: red;
+ }
+ ul{
+ 	list-style-type: none;
+ }
+ img{
+ 	vertical-align: bottom;
+ }
+ .clear:after{
+ 	content: ' ';
+ 	display: block;
+ 	height: 0;
+ 	clear: both;
+ }
+ .header{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+.logo{
+	width: 170px;
+	height: 39px;
+	margin-top: 5px;
+	float: left;
+
+}
+.header li{
+	float: left;
+	font: 18px MicrosoftYaHei;
+	margin: 0 10px;
+	padding: 10px 0;
+}
+
+
+	
+
+.header li a:hover{
+	color: orange;
+
+}
+
+.form {
+    margin-top: 6px;
+}
+
+.form * {
+    float: left;
+    vertical-align: middle; 
+}
+
+.form .search {
+    width: 361px;
+    height: 37px;
+    border: 2px solid red;
+    padding-left: 19px;
+    
+   
+    margin-left: 50px;
+}
+
+.form .submit {
+    width: 50px;
+    height: 40px;
+    
+    margin-right: 15px;
+    border: 1px solid red;
+    background: red  url(imag/fa-search.png)no-repeat center center;
+    cursor: pointer;
+}
+.banner{
+	width: 100%;
+	margin-top: 10px;
+}
+#ban{
+	position: absolute;
+	top: 100px;
+	left: 160px;
+	margin-top: 20px;
+	background-color: rgba(255, 0, 0, 0.1);
+}
+
+#ban li{
+	width:170px;
+	color: black;
+	padding: 20px 0;
+	font: 20px MicrosoftYaHei;
+}
+#ban li span{
+	float: right;
+}
+#ban li:hover{
+	color: red;
+}
+.biao{
+	border-color: red;
+	border-width: 2px;
+	background-color: rgba(255.0, 0, 0, 0.1);
+
+}
+.xin{
+	width: 1200px;
+	height: 1000px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.xin p{
+	display: inline-block;
+}
+.xin ul{
+	width: 1200px;
+	height: 600px;
+	margin-top: 20px;
+}
+.xin ul li{
+	width: 260px;
+	height: 400px;
+	float: left;
+	margin-right: 3px;
+	margin-bottom: 15px;
+	box-shadow:2px 2px 2px 0px rgba(118,118,118,0.2);
+}
+.xin li p{
+	width: 185px;
+	margin: 12px 23px;
+	font: 14px MicrosoftYaHei;
+	color: gray;
+}
+.xin ul li a{
+	text-align: center;
+	color: black;
+}
+.xin ul li a:hover{
+	color: red;
+}
+span{
+	font-size: 40px;
+	margin-left: 20px;
+}
+.ben{
+	width: 1200px;
+	height: 1000px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.ben p{
+	display: inline-block;
+}
+.ben ul{
+	width: 1200px;
+	height: 600px;
+	margin-top: 20px;
+}
+.ben ul li{
+	width: 260px;
+	height: 400px;
+	float: left;
+	margin-right: 3px;
+	margin-bottom: 15px;
+	box-shadow:2px 2px 2px 0px rgba(118,118,118,0.2);
+}
+.ben li p{
+	width: 185px;
+	margin: 12px 23px;
+	font: 14px MicrosoftYaHei;
+	color: gray;
+}
+.ben ul li a{
+	text-align: center;
+	color: black;
+}
+.ben ul li a:hover{
+	color: red;
+}
+.end{
+
+    background-color: rgba(0, 0,0, 0.5);
+    height: 120px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 120px;
+}
+.end p{
+	text-align: center;
+	color: #fff;
+
+}
